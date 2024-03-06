@@ -1,0 +1,122 @@
+.background {
+    width: 100vw; 
+    background-color: #A18A9B;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border-bottom-left-radius: 30px; 
+    border-bottom-right-radius: 30px; 
+    box-shadow: 0 .15rem .70rem rgba(0, 0, 0, 0.971); 
+    margin: 0; 
+}
+
+header {
+    width: auto;
+    height: 220px;
+    padding: 30px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between; 
+    font-size: 25px; 
+    text-align: center; 
+} 
+
+
+.page-navigate li {
+    margin: 0; 
+    color: #ffffff;
+} 
+
+a, li {
+    list-style: none; 
+    text-decoration: none;
+}
+
+.page-navigate {
+    padding: 30px 15px; 
+    margin: 15px;
+    display: flex;
+    grid-gap: 25px;
+    -webkit-user-select: none;
+    user-select: none; 
+    align-items: center; 
+} 
+
+
+.category, #logout {
+    list-style: none;
+    padding: 15px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out; 
+    
+}
+
+#login, #logout { 
+    background-color: #735C6D; 
+    box-shadow: 0 .100rem .40rem rgba(0, 0, 0, 0.971); 
+    color: #def1e6;
+} 
+
+#login:hover, #logout:hover { 
+    background-color: #ffffff;  
+    color: #735C6D; 
+    box-shadow: 0 .300rem .80rem rgba(0, 0, 0, 0.971); 
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    border: 2px solid transparent;
+}
+
+.page-navigate li:hover {
+    cursor: pointer; 
+    transform: scale(1.1);  
+    color: #735C6D; 
+} 
+
+.category:hover {
+    background-color: #def1e6eb; 
+    box-shadow: 0 .200rem .60rem rgba(0, 0, 0, 0.9); 
+} 
+
+.category.selected { 
+    background-color: #def1e6f3; 
+    box-shadow: 0 .200rem .60rem rgba(0, 0, 0, 0.9); 
+    color: #735C6D; 
+}
+
+.profile-image {
+    width: 50px;
+    height: 50px; 
+} 
+
+.profile-image:hover {
+    box-shadow: 0 .300rem .80rem rgba(0, 0, 0, 0.971); 
+    border-radius: 50%;
+} 
+
+.profileIamge {
+    width: 40px;
+    height: 40px;
+    transition: 0.2s ease-in-out; 
+    box-shadow: 0 .300rem .80rem rgba(0, 0, 0, 0.971); 
+} 
+
+.image-box { 
+    align-self: center;
+    justify-self: center; 
+    padding: 5px; 
+    margin: 20px 40px 40px 20px;
+} 
+
+
+.logout {
+    list-style: none; 
+}
